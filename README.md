@@ -78,10 +78,10 @@ Notable breakthroughs in unified understanding and generation modeling have led 
 <table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
   <tr>
       <td>
-          <video src="./assets/t2v/001.mp4" width="320" controls loop></video>
+          <video src="https://1drv.ms/v/c/333fd699e1fb0d7d/EclQ1wTA3aVFvxcC4z1y97UBLwWlPcp9Vcb32ju6vg6Emw?e=eWi8Lv" width="320" controls loop></video>
       </td>
       <td>
-          <video src="./assets/t2v/002.mp4" width="320" controls loop></video>
+          <video src="https://1drv.ms/v/c/333fd699e1fb0d7d/EclQ1wTA3aVFvxcC4z1y97UBLwWlPcp9Vcb32ju6vg6Emw?e=eWi8Lv" width="320" controls loop></video>
       </td>
        <td>
           <video src="./assets/t2v/003.mp4" width="320" controls loop></video>
