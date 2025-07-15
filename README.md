@@ -78,36 +78,36 @@ Notable breakthroughs in unified understanding and generation modeling have led 
 <table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
   <tr>
       <td>
-          <video src="https://1drv.ms/v/c/333fd699e1fb0d7d/EclQ1wTA3aVFvxcC4z1y97UBLwWlPcp9Vcb32ju6vg6Emw?e=eWi8Lv" width="320" controls loop></video>
+          <img src="./assets/t2v/001.gif" width="320">
       </td>
       <td>
-          <video src="https://1drv.ms/v/c/333fd699e1fb0d7d/EclQ1wTA3aVFvxcC4z1y97UBLwWlPcp9Vcb32ju6vg6Emw?e=eWi8Lv" width="320" controls loop></video>
+          <img src="./assets/t2v/002.gif" width="320">
       </td>
-       <td>
-          <video src="./assets/t2v/003.mp4" width="320" controls loop></video>
-     </td>
+      <td>
+          <img src="./assets/t2v/003.gif" width="320">
+      </td>
   </tr>
   <tr>
       <td>
-          <video src="./assets/t2v/004.mp4" width="320" controls loop></video>
+          <img src="./assets/t2v/004.gif" width="320">
       </td>
       <td>
-          <video src="./assets/t2v/005.mp4" width="320" controls loop></video>
+          <img src="./assets/t2v/005.gif" width="320">
       </td>
-       <td>
-          <video src="./assets/t2v/006.mp4" width="320" controls loop></video>
-     </td>
+      <td>
+          <img src="./assets/t2v/006.gif" width="320">
+      </td>
   </tr>
   <tr>
       <td>
-          <video src="./assets/t2v/007.mp4" width="320" controls loop></video>
+          <img src="./assets/t2v/007.gif" width="320">
       </td>
       <td>
-          <video src="./assets/t2v/008.mp4" width="320" controls loop></video>
+          <img src="./assets/t2v/008.gif" width="320">
       </td>
-       <td>
-          <video src="./assets/t2v/009.mp4" width="320" controls loop></video>
-     </td>
+      <td>
+          <img src="./assets/t2v/009.gif" width="320">
+      </td>
   </tr>
 </table>
 
@@ -116,26 +116,26 @@ Notable breakthroughs in unified understanding and generation modeling have led 
 <table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
   <tr>
       <td>
-          <video src="./assets/v2v/concat_0.mp4" width="1000" controls loop></video>
+          <img src="./assets/v2v/concat_0.gif" width="1000">
       </td>
       <td>
-          <video src="./assets/v2v/concat_1.mp4" width="1000" controls loop></video>
-      </td>
-  </tr>
-  <tr>
-      <td>
-          <video src="./assets/v2v/concat_2.mp4" width="1000" controls loop></video>
-      </td>
-      <td>
-          <video src="./assets/v2v/concat_3.mp4" width="1000" controls loop></video>
+          <img src="./assets/v2v/concat_1.gif" width="1000">
       </td>
   </tr>
   <tr>
       <td>
-          <video src="./assets/v2v/concat_4.mp4" width="1000" controls loop></video>
+          <img src="./assets/v2v/concat_2.gif" width="1000">
       </td>
       <td>
-          <video src="./assets/v2v/concat_5.mp4" width="1000" controls loop></video>
+          <img src="./assets/v2v/concat_3.gif" width="1000">
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <img src="./assets/v2v/concat_4.gif" width="1000">
+      </td>
+      <td>
+          <img src="./assets/v2v/concat_5.gif" width="1000">
       </td>
   </tr>
 </table>
