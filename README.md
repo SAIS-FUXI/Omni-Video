@@ -102,80 +102,23 @@ Notable breakthroughs in unified understanding and generation modeling have led 
 ### Video-to-Video
 Our model offers video editing capabilities. While its generalization may not always be optimal due to the high cost of training data, multiple sampling can often improve results. For better performance, fine-tuning with high-quality data is also a recommended option.
 
-group 1:
-<table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
-  <tr>
-      <td>
-          <video width="400" controls>
-              <source src="./assets/v2v/v2v_demo_001.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-          </video>
-      </td>
-      <td>
-          <video width="400" controls>
-              <source src="./assets/v2v/v2v_demo_002.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-          </video>
-      </td>
-  </tr>
-  <tr>
-      <td>
-          <video width="400" controls>
-              <source src="./assets/v2v/v2v_demo_003.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-          </video>
-      </td>
-      <td>
-          <video width="400" controls>
-              <source src="./assets/v2v/v2v_demo_004.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-          </video>
-      </td>
-  </tr>
-  <tr>
-      <td>
-          <video width="400" controls>
-              <source src="./assets/v2v/v2v_demo_005.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-          </video>
-      </td>
-      <td>
-          <video width="400" controls>
-              <source src="./assets/v2v/v2v_demo_006.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-          </video>
-      </td>
-  </tr>
-</table>
+
+<div align="center">
+
+| Group 1 | Group 2 |
+|--------|--------|
+| ![Video Demo 1](./assets/v2v/v2v_demo_001.gif) | ![Video Demo 2](./assets/v2v/v2v_demo_002.gif) |
+| ![Video Demo 3](./assets/v2v/v2v_demo_003.gif) | ![Video Demo 4](./assets/v2v/v2v_demo_004.gif) |
+| ![Video Demo 5](./assets/v2v/v2v_demo_005.gif) | ![Video Demo 6](./assets/v2v/v2v_demo_006.gif) |
 
 
-group 2:
-<table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
-  <tr>
-      <td>
-          <img src="./assets/v2v/concat_0.gif" width="400">
-      </td>
-      <td>
-          <img src="./assets/v2v/concat_1.gif" width="400">
-      </td>
-  </tr>
-  <tr>
-      <td>
-          <img src="./assets/v2v/concat_2.gif" width="400">
-      </td>
-      <td>
-          <img src="./assets/v2v/concat_3.gif" width="400">
-      </td>
-  </tr>
-  <tr>
-      <td>
-          <img src="./assets/v2v/concat_4.gif" width="400">
-      </td>
-      <td>
-          <img src="./assets/v2v/concat_5.gif" width="400">
-      </td>
-  </tr>
-</table>
+| Group 3 | Group 4 |
+|-------|-------|
+| ![Concat Demo 1](./assets/v2v/concat_0.gif) | ![Concat Demo 2](./assets/v2v/concat_1.gif) |
+| ![Concat Demo 3](./assets/v2v/concat_2.gif) | ![Concat Demo 4](./assets/v2v/concat_3.gif) |
+| ![Concat Demo 5](./assets/v2v/concat_4.gif) | ![Concat Demo 6](./assets/v2v/concat_5.gif) |
+
+</div>
 
 ### Text-to-image
  ![image](./assets/t2i/t2i_01.png)
