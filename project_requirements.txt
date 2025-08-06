@@ -1,0 +1,60 @@
+# WANX Environment - Core ML/DL Requirements
+# Generated from conda environment: wanx
+
+# Core PyTorch Stack
+torch==2.6.0+cu118
+torchvision==0.21.0+cu118
+torchaudio==2.6.0+cu118
+triton==3.2.0
+
+# Transformers & NLP
+transformers==4.51.1
+tokenizers==0.21.0
+sentencepiece==0.2.0
+
+# Training & Optimization
+deepspeed==0.16.6
+accelerate==1.4.0
+flash-attn==2.7.3
+xformers==0.0.29.post3
+
+# Diffusion Models
+diffusers==0.32.2
+
+# Computer Vision
+opencv-python-headless==4.11.0.86
+pillow==10.4.0
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+moviepy==2.1.2
+
+# Scientific Computing
+numpy==1.26.0
+scipy==1.15.2
+pandas==2.2.3
+matplotlib==3.10.3
+
+# Configuration & Utilities
+easydict==1.13
+pyyaml==6.0.2
+tqdm==4.67.1
+einops==0.8.1
+datasets==3.3.2
+
+# Monitoring & Logging
+tensorboard==2.19.0
+tensorboardx==2.6.2.2
+
+# Web Interface
+gradio==5.20.1
+fastapi==0.115.11
+
+# Additional Tools
+xfuser==0.4.3.post3
+yunchang==0.6.3.post1
+regex==2024.11.6
+requests==2.32.3
+fsspec==2024.12.0
+huggingface-hub==0.30.2
+safetensors==0.5.3
+

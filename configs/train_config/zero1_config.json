@@ -1,0 +1,29 @@
+{
+    "steps_per_print": 3000,
+    "gradient_clipping": 0.05,
+    "prescale_gradients": false,
+    "wall_clock_breakdown": false,
+    "train_micro_batch_size_per_gpu": -1,
+    "bf16": {
+        "enabled": false
+    },
+    "fp16": {
+        "enabled": false,
+        "auto_cast": true,
+        "loss_scale": 0,
+        "loss_scale_window": 1000,
+        "hysteresis": 2,
+        "min_loss_scale": 1,
+        "initial_scale_power": 16
+    },
+  
+    "zero_optimization": {
+      "stage": 1,
+      "allgather_partitions": true,
+      "allgather_bucket_size": 2e7,
+      "overlap_comm": true,
+      "reduce_scatter": true,
+      "reduce_bucket_size": 5e7,
+      "contiguous_gradients": true
+    }
+}
