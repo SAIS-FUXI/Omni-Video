@@ -124,7 +124,7 @@ examples/finetune_data/
 ```
 
 ### Option 2: Prepare new data from raw videos and prompts.
-The detailed introduciton of data preparation can be found in tools/data_prepare/DATA_PREPARE.md
+The detailed introduciton of data preparation can be found in [tools/data_prepare/DATA_PREPARE.md](tools/data_prepare/DATA_PREPARE.md)
 
 ### Configuration Files
 - **Training Config**: `configs/foster/omnivideo_mixed_task_1_3B.yaml`
