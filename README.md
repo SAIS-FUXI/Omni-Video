@@ -61,43 +61,17 @@ Notable breakthroughs in unified understanding and generation modeling have led 
 
 ## Demos
 
-### Text-to-video
+### Text-to-Video
 
-<table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
-  <tr>
-      <td>
-          <img src="./assets/t2v/001.gif" width="200">
-      </td>
-      <td>
-          <img src="./assets/t2v/002.gif" width="200">
-      </td>
-      <td>
-          <img src="./assets/t2v/003.gif" width="200">
-      </td>
-  </tr>
-  <tr>
-      <td>
-          <img src="./assets/t2v/004.gif" width="200">
-      </td>
-      <td>
-          <img src="./assets/t2v/005.gif" width="200">
-      </td>
-      <td>
-          <img src="./assets/t2v/006.gif" width="200">
-      </td>
-  </tr>
-  <tr>
-      <td>
-          <img src="./assets/t2v/007.gif" width="200">
-      </td>
-      <td>
-          <img src="./assets/t2v/008.gif" width="200">
-      </td>
-      <td>
-          <img src="./assets/t2v/009.gif" width="200">
-      </td>
-  </tr>
-</table>
+<div align="center">
+
+| Group 1 | Group 2 | Group 3 |
+|--------|--------|--------|
+| ![Text-to-Video Demo 1](./assets/t2v/001.gif) | ![Text-to-Video Demo 2](./assets/t2v/002.gif) | ![Text-to-Video Demo 3](./assets/t2v/003.gif) |
+| ![Text-to-Video Demo 4](./assets/t2v/004.gif) | ![Text-to-Video Demo 5](./assets/t2v/005.gif) | ![Text-to-Video Demo 6](./assets/t2v/006.gif) |
+| ![Text-to-Video Demo 7](./assets/t2v/007.gif) | ![Text-to-Video Demo 8](./assets/t2v/008.gif) | ![Text-to-Video Demo 9](./assets/t2v/009.gif) |
+
+</div>
 
 ### Video-to-Video
 Our model offers video editing capabilities. While its generalization may not always be optimal due to the high cost of training data, multiple sampling can often improve results. For better performance, fine-tuning with high-quality data is also a recommended option.
