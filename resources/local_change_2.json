@@ -1,0 +1,47 @@
+[
+    {
+        "id": 0,
+        "prompt": "Change the real raccoon to a stuffed raccoon.",
+        "video_file_path": "local_change_2/local_change_2_1.mp4"
+    },
+    {
+        "id": 1,
+        "prompt": "Change the firefighters pizza to a steaming cup of coffee, and remove the cheese stretch and bite motion\u2014instead, he gently cradles the cup with both gloved hands, steam rising in thin spirals as he takes a slow sip, eyes closing briefly in quiet relief.",
+        "video_file_path": "local_change_2/local_change_2_2.mp4"
+    },
+    {
+        "id": 2,
+        "prompt": "Change the characters light brown fur to deep obsidian-black fur, and transform the golden motes rising from the collar into swirling, icy blue ethereal mist that freezes the air around their jawline, while the arcane runes beneath the fur glow faintly violet instead of golden.",
+        "video_file_path": "local_change_2/local_change_2_3.mp4"
+    },
+    {
+        "id": 3,
+        "prompt": "Change the golden retriever to a black Labrador.",
+        "video_file_path": "local_change_2/local_change_2_4.mp4"
+    },
+    {
+        "id": 4,
+        "prompt": "Change the man in the tailored suit to a woman in a bloodstained white lace gown, and alter her gesture from kneeling in submission to gripping the rug with both hands as if trying to pull herself forward, her expression shifting from terror to defiant resolve as she lifts her head, eyes blazing with quiet fury instead of fear.",
+        "video_file_path": "local_change_2/local_change_2_5.mp4"
+    },
+    {
+        "id": 5,
+        "prompt": "Change the golden retriever to a sleek black Border Collie with white-tipped paws, and alter its behavior to move with focused precision\u2014darting in sharp, angular bursts to intercept falling leaves rather than leaping wildly, its tail held low and stiff like a rudder, eyes locked forward with intense concentration.",
+        "video_file_path": "local_change_2/local_change_2_6.mp4"
+    },
+    {
+        "id": 6,
+        "prompt": "Change the mans crisp blue suit to a tailored charcoal-gray wool coat with a high collar, and replace the notebook with a vintage leather-bound sketchbook bound with brass clasps, its pages slightly curled from age and use.",
+        "video_file_path": "local_change_2/local_change_2_7.mp4"
+    },
+    {
+        "id": 7,
+        "prompt": "Change the real white rabbit to a stuffed white rabbit.",
+        "video_file_path": "local_change_2/local_change_2_8.mp4"
+    },
+    {
+        "id": 8,
+        "prompt": "Change the butterfly to a violet butterfly.",
+        "video_file_path": "local_change_2/local_change_2_9.mp4"
+    }
+]

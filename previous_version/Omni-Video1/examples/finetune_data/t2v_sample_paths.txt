@@ -1,0 +1,4 @@
+examples/finetune_data/t2v_sample/AMC4MQ-4Rkk-Scene-0007_features.pkl
+examples/finetune_data/t2v_sample/KESVCA8Fud4-Scene-0037_features.pkl
+examples/finetune_data/t2v_sample/lg2i2oqnoy0-Scene-0691_features.pkl
+examples/finetune_data/t2v_sample/xeOM2B7fvOc-Scene-0013_features.pkl

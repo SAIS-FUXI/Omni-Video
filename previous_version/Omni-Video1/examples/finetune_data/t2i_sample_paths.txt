@@ -1,0 +1,4 @@
+examples/finetune_data/t2i_sample/3396184_with_vae_features.pkl
+examples/finetune_data/t2i_sample/340252_with_vae_features.pkl
+examples/finetune_data/t2i_sample/3409450_with_vae_features.pkl
+examples/finetune_data/t2i_sample/3409752_with_vae_features.pkl

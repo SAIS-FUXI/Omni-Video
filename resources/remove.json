@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "prompt": "Remove the meditation cushion from the scene.",
+        "video_file_path": "remove/remove_1.mp4"
+    },
+    {
+        "id": 1,
+        "prompt": "Remove the two cubs from the scene.",
+        "video_file_path": "remove/remove_2.mp4"
+    },
+    {
+        "id": 2,
+        "prompt": "Remove the two lizards from the scene, but keep the runner and the desert dune under a blazing noon sun.",
+        "video_file_path": "remove/remove_3.mp4"
+    },
+    {
+        "id": 3,
+        "prompt": "Remove the black cat from the scene.",
+        "video_file_path": "remove/remove_4.mp4"
+    },
+    {
+        "id": 4,
+        "prompt": "Remove the bicycle from the scene.",
+        "video_file_path": "remove/remove_5.mp4"
+    },
+    {
+        "id": 5,
+        "prompt": "Remove the large brush from the artists hand.",
+        "video_file_path": "remove/remove_6.mp4"
+    },
+    {
+        "id": 6,
+        "prompt": "Remove the two deer from the scene, but keep the painter and the lake under a crisp autumn sky.",
+        "video_file_path": "remove/remove_7.mp4"
+    },
+    {
+        "id": 7,
+        "prompt": "Remove the sunglasses from the woman.",
+        "video_file_path": "remove/remove_8.mp4"
+    }
+]
