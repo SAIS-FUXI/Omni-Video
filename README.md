@@ -410,7 +410,6 @@ bash tools/inference/inference_omni_e2e.sh
 |------|-------------|
 | `t2v-A14B` | Text-to-Video generation with A14B model |
 | `v2v-A14B` | Video-to-Video editing with A14B model |
-| `t2v-1.3B` | Text-to-Video generation with 1.3B model |
 
 ### Generation Parameters
 
