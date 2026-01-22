@@ -1,1 +1,0 @@
-from .visual_context_adapter import VisualContextAdapter
