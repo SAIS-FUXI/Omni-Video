@@ -13,21 +13,21 @@
 </p>
 
 <p align="center">
-Hao Yang<sup>1</sup>, 
+Hao Yang<sup>2</sup>, 
 Zhiyu Tan<sup>1,2†</sup>, 
-Jia Gong<sup>1</sup>, 
-Luozheng Qin<sup>1</sup>, 
-Hesen Chen<sup>1</sup>, 
-Xiaomeng Yang<sup>1</sup>, 
-Yuqing Sun<sup>1</sup>, 
-Mengping Yang<sup>1*</sup>, 
+Jia Gong<sup>2</sup>, 
+Luozheng Qin<sup>2</sup>, 
+Hesen Chen<sup>1,2</sup>, 
+Xiaomeng Yang<sup>2</sup>, 
+Yuqing Sun<sup>2</sup>, 
+Mengping Yang<sup>2*</sup>, 
 Hao Li<sup>1,2*</sup>
 </p>
 
 <p align="center">
-<sup>1</sup>Shanghai Academy of Artificial Intelligence for Science &nbsp;|&nbsp; <sup>2</sup>Fudan University
+<sup>1</sup>Fudan University &nbsp;|&nbsp; <sup>2</sup>Shanghai Academy of Artificial Intelligence for Science 
 <br>
-<sup>*</sup>Corresponding Author &nbsp;&nbsp; <sup>†</sup>Project Leader
+<sup>*</sup>Corresponding Author &nbsp;&nbsp; <sup>†</sup>Project Lead
 </p>
 
 ---
