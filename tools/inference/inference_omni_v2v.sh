@@ -32,10 +32,10 @@ export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 #   ${CKPT_DIR}/high_noise_model/model.pt
 #   ${CKPT_DIR}/low_noise_model/model.pt
 # (and any base assets required by the pipeline)
-CKPT_DIR="/inspire/ssd/project/sais-mtm/public/data/ppu_data/pretrained_models/OmniVideo2-A14B"
+CKPT_DIR="{path to your checkpoint directory}"
 
 # Qwen3-VL model for online feature extraction
-QWEN3VL_MODEL_PATH="/inspire/ssd/project/sais-mtm/public/pretrained_models/Qwen3-VL-30B-A3B-Instruct"
+QWEN3VL_MODEL_PATH="{path to your Qwen3-VL model directory}"
 
 # =============================================================================
 # Input Data (JSONL format only)
