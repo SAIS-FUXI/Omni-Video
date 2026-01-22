@@ -376,10 +376,6 @@ Create a JSONL file with your prompts. Each line should be a JSON object:
 {"sample_id": "001", "edit_prompt": "Change the dog to a cat", "source_clip_path": "/path/to/source_video.mp4"}
 ```
 
-**For Text-to-Video generation:**
-```json
-{"sample_id": "002", "prompt": "A serene lake surrounded by mountains at sunset"}
-```
 
 ### Run Inference
 
