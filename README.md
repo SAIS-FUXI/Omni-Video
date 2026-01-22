@@ -14,7 +14,7 @@
 
 <p align="center">
 Hao Yang<sup>1</sup>, 
-Zhiyu Tan<sup>1,2</sup>, 
+Zhiyu Tan<sup>1,2†</sup>, 
 Jia Gong<sup>1</sup>, 
 Luozheng Qin<sup>1</sup>, 
 Hesen Chen<sup>1</sup>, 
@@ -27,7 +27,7 @@ Hao Li<sup>1,2*</sup>
 <p align="center">
 <sup>1</sup>Shanghai Academy of Artificial Intelligence for Science &nbsp;|&nbsp; <sup>2</sup>Fudan University
 <br>
-<sup>*</sup>Corresponding Author
+<sup>*</sup>Corresponding Author &nbsp;&nbsp; <sup>†</sup>Project Leader
 </p>
 
 ---
@@ -446,5 +446,11 @@ If you find this work useful, please consider citing:
   year={2025},
   publisher={GitHub},
   url={https://github.com/SAIS-FUXI/Omni-Video}
+}
+@article{tan2025omni,
+  title={Omni-Video: Democratizing Unified Video Understanding and Generation},
+  author={Tan, Zhiyu and Yang, Hao and Qin, Luozheng and Gong, Jia and Yang, Mengping and Li, Hao},
+  journal={arXiv preprint arXiv:2507.06119},
+  year={2025}
 }
 ```
