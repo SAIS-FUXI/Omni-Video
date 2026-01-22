@@ -2,31 +2,31 @@
     {
         "id": 0,
         "prompt": "Change the womans black top to a flowing, blood-red silk gown that clings and billows with her motion, enhancing the visual intensity of her desperation and making her the undeniable focal point against the warm shadows.",
-        "video_file_path": "high_motion/high_motion_1.mp4"
+        "video_file_path": "high_motion/high_motion_1.gif"
     },
     {
         "id": 1,
         "prompt": "Change the womans green jacket to a deep crimson cloak that billows dramatically with each step, enhancing the sense of motion and emotional intensity as it catches the moonlight and glowing energy.",
-        "video_file_path": "high_motion/high_motion_2.mp4"
+        "video_file_path": "high_motion/high_motion_2.gif"
     },
     {
         "id": 2,
         "prompt": "Change the characters armored suit from red-and-black to matte charcoal gray with glowing cyan circuitry accents, and transform the weapons plasma trail into a silent, crackling arc of frozen lightning that leaves behind trails of frost instead of fire, altering the color temperature and energy signature of the scene without changing its motion or pacing.",
-        "video_file_path": "high_motion/high_motion_3.mp4"
+        "video_file_path": "high_motion/high_motion_3.gif"
     },
     {
         "id": 3,
         "prompt": "Change the womans white shirt to a blood-red silk blouse that clings to her form, its color intensifying with each lightning flash, making the stain-like fabric appear as if soaked in rain and something darker.",
-        "video_file_path": "high_motion/high_motion_4.mp4"
+        "video_file_path": "high_motion/high_motion_4.gif"
     },
     {
         "id": 4,
         "prompt": "Change the womans pink shirt to a deep crimson robe with gold embroidery, and transform the flickering overhead lamp into a floating, ancient lantern suspended mid-air, casting shifting amber light that intensifies as she turns.",
-        "video_file_path": "high_motion/high_motion_5.mp4"
+        "video_file_path": "high_motion/high_motion_5.gif"
     },
     {
         "id": 5,
         "prompt": "Change the mans sharp dark suit and tie to a weathered, oil-stained mechanics jumpsuit, and replace his glasses with a faded baseball cap pulled low over his eyes \u2014 his expression still unyielding, but now hardened by labor, not authority. The womans quiet resistance remains unchanged, preserving the power dynamic.",
-        "video_file_path": "high_motion/high_motion_6.mp4"
+        "video_file_path": "high_motion/high_motion_6.gif"
     }
 ]

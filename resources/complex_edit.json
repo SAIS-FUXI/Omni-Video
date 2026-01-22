@@ -2,36 +2,36 @@
     {
         "id": 0,
         "prompt": "Change the mans black jacket to a long, tattered gray overcoat with frayed edges and a high collar, and replace the green wall with a peeling, faded blue wallpaper covered in faded, handwritten notes and faded red symbols.",
-        "video_file_path": "complex_edit/complex_edit_1.mp4"
+        "video_file_path": "complex_edit/complex_edit_1.gif"
     },
     {
         "id": 1,
         "prompt": "Change the womans red shirt to a glowing neon cyan, and transform the warm orange window glow into a cold, electric blue moonlight that casts sharp, angular shadows instead of golden streaks\u2014making the floating dust particles shimmer like frozen static.",
-        "video_file_path": "complex_edit/complex_edit_2.mp4"
+        "video_file_path": "complex_edit/complex_edit_2.gif"
     },
     {
         "id": 2,
         "prompt": "Change the mans black jacket to a long, tattered gray coat lined with faintly glowing thread, and replace the cold blue light pulse with a sudden burst of warm amber light that illuminates floating golden dust and glowing geometric symbols instead of ash and sigils.",
-        "video_file_path": "complex_edit/complex_edit_3.mp4"
+        "video_file_path": "complex_edit/complex_edit_3.gif"
     },
     {
         "id": 3,
         "prompt": "Change the womans black workout attire to a vibrant crimson sports bra and matching high-waisted leggings, and replace the white towel with a long, flowing silk scarf in the same crimson hue that billows dramatically with each motion.",
-        "video_file_path": "complex_edit/complex_edit_4.mp4"
+        "video_file_path": "complex_edit/complex_edit_4.gif"
     },
     {
         "id": 4,
         "prompt": "Change the red fox to a small, silver-furred Arctic fox with a frost-tipped tail, and replace the sun-dappled forest with a quiet, snow-laden boreal woodland at twilight, where the golden light becomes a cool blue moonlight and the firefly-like motes become glowing ice crystals that shimmer and drift in slow, silent spirals.",
-        "video_file_path": "complex_edit/complex_edit_5.mp4"
+        "video_file_path": "complex_edit/complex_edit_5.gif"
     },
     {
         "id": 5,
         "prompt": "Change the womans flowing black coat to a tailored, knee-length camel wool trench coat with a crisp white collar, and replace the autumn leaves and loose papers swirling around their ankles with falling cherry blossom petals drifting lazily in the breeze.",
-        "video_file_path": "complex_edit/complex_edit_6.mp4"
+        "video_file_path": "complex_edit/complex_edit_6.gif"
     },
     {
         "id": 6,
         "prompt": "Change the mans orange prison jumpsuit to a tattered gray hospital gown, and replace the flickering greenish fluorescent bulb with a single, flickering red emergency light that casts a blood-red glow across the corridor, making the shadows appear as if stained with dried blood.",
-        "video_file_path": "complex_edit/complex_edit_7.mp4"
+        "video_file_path": "complex_edit/complex_edit_7.gif"
     }
 ]

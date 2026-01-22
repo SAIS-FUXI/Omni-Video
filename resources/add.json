@@ -2,46 +2,46 @@
     {
         "id": 0,
         "prompt": "Add a scarf around the first foxs neck.",
-        "video_file_path": "add/add_1.mp4"
+        "video_file_path": "add/add_1.gif"
     },
     {
         "id": 1,
         "prompt": "Add a tiny pirate hat on the parrots head.",
-        "video_file_path": "add/add_2.mp4"
+        "video_file_path": "add/add_2.gif"
     },
     {
         "id": 2,
         "prompt": "Add a red headband to the players forehead.",
-        "video_file_path": "add/add_3.mp4"
+        "video_file_path": "add/add_3.gif"
     },
     {
         "id": 3,
         "prompt": "Add a tiny crown to the hummingbirds head.",
-        "video_file_path": "add/add_4.mp4"
+        "video_file_path": "add/add_4.gif"
     },
     {
         "id": 4,
         "prompt": "Add glowing neon stripes to the motorcycle",
-        "video_file_path": "add/add_5.mp4"
+        "video_file_path": "add/add_5.gif"
     },
     {
         "id": 5,
         "prompt": "Add a bow tie around the rabbits neck.",
-        "video_file_path": "add/add_6.mp4"
+        "video_file_path": "add/add_6.gif"
     },
     {
         "id": 6,
         "prompt": "Add a straw hat on the first ducks head.",
-        "video_file_path": "add/add_7.mp4"
+        "video_file_path": "add/add_7.gif"
     },
     {
         "id": 7,
         "prompt": "Add pink gloves to the bikers.",
-        "video_file_path": "add/add_8.mp4"
+        "video_file_path": "add/add_8.gif"
     },
     {
         "id": 8,
         "prompt": "Add safety goggles to the scientist.",
-        "video_file_path": "add/add_9.mp4"
+        "video_file_path": "add/add_9.gif"
     }
 ]

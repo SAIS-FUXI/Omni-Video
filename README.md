@@ -69,14 +69,14 @@ We present a unified video editing and generation framework that pairs a text-to
 
 *Change the man's black jacket to a tattered gray overcoat, replace the wall with faded blue wallpaper*
 
-<video src="resources/complex_edit/complex_edit_1.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/complex_edit/complex_edit_1.gif" width="100%">
 
 </td>
 <td width="50%">
 
 *Change the woman's red shirt to glowing neon cyan, transform window glow to electric blue moonlight*
 
-<video src="resources/complex_edit/complex_edit_2.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/complex_edit/complex_edit_2.gif" width="100%">
 
 </td>
 </tr>
@@ -85,14 +85,14 @@ We present a unified video editing and generation framework that pairs a text-to
 
 *Change the man's black jacket to a gray coat with glowing thread, replace blue light with warm amber*
 
-<video src="resources/complex_edit/complex_edit_3.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/complex_edit/complex_edit_3.gif" width="100%">
 
 </td>
 <td width="50%">
 
 *Change workout attire to vibrant crimson sports bra and leggings, replace towel with flowing silk scarf*
 
-<video src="resources/complex_edit/complex_edit_4.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/complex_edit/complex_edit_4.gif" width="100%">
 
 </td>
 </tr>
@@ -107,14 +107,14 @@ We present a unified video editing and generation framework that pairs a text-to
 
 *Change the woman's black top to a flowing blood-red silk gown that billows with motion*
 
-<video src="resources/high_motion/high_motion_1.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/high_motion/high_motion_1.gif" width="100%">
 
 </td>
 <td width="50%">
 
 *Change the woman's green jacket to a deep crimson cloak that billows dramatically*
 
-<video src="resources/high_motion/high_motion_2.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/high_motion/high_motion_2.gif" width="100%">
 
 </td>
 </tr>
@@ -123,14 +123,14 @@ We present a unified video editing and generation framework that pairs a text-to
 
 *Change the armored suit from red-and-black to matte charcoal gray with cyan circuitry accents*
 
-<video src="resources/high_motion/high_motion_3.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/high_motion/high_motion_3.gif" width="100%">
 
 </td>
 <td width="50%">
 
 *Change the woman's white shirt to a blood-red silk blouse that clings to her form*
 
-<video src="resources/high_motion/high_motion_4.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/high_motion/high_motion_4.gif" width="100%">
 
 </td>
 </tr>
@@ -145,14 +145,14 @@ We present a unified video editing and generation framework that pairs a text-to
 
 *Change the real raccoon to a stuffed raccoon*
 
-<video src="resources/local_change_2/local_change_2_1.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/local_change_2/local_change_2_1.gif" width="100%">
 
 </td>
 <td width="50%">
 
 *Change the firefighter's pizza to a steaming cup of coffee*
 
-<video src="resources/local_change_2/local_change_2_2.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/local_change_2/local_change_2_2.gif" width="100%">
 
 </td>
 </tr>
@@ -161,14 +161,14 @@ We present a unified video editing and generation framework that pairs a text-to
 
 *Change the light brown fur to deep obsidian-black fur with icy blue ethereal mist*
 
-<video src="resources/local_change_2/local_change_2_3.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/local_change_2/local_change_2_3.gif" width="100%">
 
 </td>
 <td width="50%">
 
 *Change the golden retriever to a black Labrador*
 
-<video src="resources/local_change_2/local_change_2_4.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/local_change_2/local_change_2_4.gif" width="100%">
 
 </td>
 </tr>
@@ -187,14 +187,14 @@ We present a unified video editing and generation framework that pairs a text-to
 
 *Add a scarf around the first fox's neck*
 
-<video src="resources/add/add_1.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/add/add_1.gif" width="100%">
 
 </td>
 <td width="50%">
 
 *Add a tiny pirate hat on the parrot's head*
 
-<video src="resources/add/add_2.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/add/add_2.gif" width="100%">
 
 </td>
 </tr>
@@ -203,14 +203,14 @@ We present a unified video editing and generation framework that pairs a text-to
 
 *Add a red headband to the player's forehead*
 
-<video src="resources/add/add_3.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/add/add_3.gif" width="100%">
 
 </td>
 <td width="50%">
 
 *Add a tiny crown to the hummingbird's head*
 
-<video src="resources/add/add_4.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/add/add_4.gif" width="100%">
 
 </td>
 </tr>
@@ -225,14 +225,14 @@ We present a unified video editing and generation framework that pairs a text-to
 
 *Remove the meditation cushion from the scene*
 
-<video src="resources/remove/remove_1.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/remove/remove_1.gif" width="100%">
 
 </td>
 <td width="50%">
 
 *Remove the two cubs from the scene*
 
-<video src="resources/remove/remove_2.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/remove/remove_2.gif" width="100%">
 
 </td>
 </tr>
@@ -241,14 +241,14 @@ We present a unified video editing and generation framework that pairs a text-to
 
 *Remove the two lizards from the scene*
 
-<video src="resources/remove/remove_3.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/remove/remove_3.gif" width="100%">
 
 </td>
 <td width="50%">
 
 *Remove the black cat from the scene*
 
-<video src="resources/remove/remove_4.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/remove/remove_4.gif" width="100%">
 
 </td>
 </tr>
@@ -263,14 +263,14 @@ We present a unified video editing and generation framework that pairs a text-to
 
 *Change the woman's white dress to a blood-stained black gown*
 
-<video src="resources/local_change_1/local_change_1_1.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/local_change_1/local_change_1_1.gif" width="100%">
 
 </td>
 <td width="50%">
 
 *Change the fox into a badger*
 
-<video src="resources/local_change_1/local_change_1_2.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/local_change_1/local_change_1_2.gif" width="100%">
 
 </td>
 </tr>
@@ -279,14 +279,14 @@ We present a unified video editing and generation framework that pairs a text-to
 
 *Change the man with thick beard to a woman with short silver hair*
 
-<video src="resources/local_change_1/local_change_1_3.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/local_change_1/local_change_1_3.gif" width="100%">
 
 </td>
 <td width="50%">
 
 *Change the engineer's navy jacket to a bright crimson trench coat*
 
-<video src="resources/local_change_1/local_change_1_4.mp4" width="100%" controls autoplay loop muted></video>
+<img src="resources/local_change_1/local_change_1_4.gif" width="100%">
 
 </td>
 </tr>
