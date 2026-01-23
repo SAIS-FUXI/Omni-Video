@@ -315,7 +315,7 @@ omnivideo2_release/
 ### Requirements
 
 - Python >= 3.10
-- PyTorch >= 2.0 with CUDA support
+- PyTorch >= 2.8 with CUDA support
 - NVIDIA GPU with sufficient VRAM (recommended: 80GB for A14B model)
 
 ### Installation
@@ -339,7 +339,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 4. Install dependencies:
 ```bash
-pip install transformers accelerate easydict decord pillow numpy tqdm
+pip install -r requirements.txt
 pip install flash-attn --no-build-isolation  # Optional but recommended for faster attention
 ```
 
