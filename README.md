@@ -332,20 +332,10 @@ conda create -n omnivideo2 python=3.10
 conda activate omnivideo2
 ```
 
-3. Install PyTorch (adjust CUDA version as needed):
-```bash
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-```
-
-4. Install dependencies:
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 pip install flash-attn --no-build-isolation  # Optional but recommended for faster attention
-```
-
-5. Install Qwen3-VL dependencies:
-```bash
-pip install qwen-vl-utils
 ```
 
 ## Model Checkpoints
