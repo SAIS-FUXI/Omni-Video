@@ -428,7 +428,8 @@ If you find this work useful, please consider citing:
 
 ```bibtex
 @misc{omnivideo2,
-  title={OmniVideo2: Unified Video Generation and Editing},
+  title={OmniVideo2: A flexible framework to bridge video understanding, generation and editing
+},
   year={2026},
   publisher={GitHub},
   url={https://github.com/SAIS-FUXI/Omni-Video}
