@@ -1,14 +1,18 @@
-<h1 align="center"><span style="color: #7C3AED;">Omni-Video 2</span></h1>
+<h1 align="center"><span style="color: #F97316;">Omni-Video 2</span></h1>
 
 <h3 align="center"><b>A flexible framework to bridge video understanding, generation and editing</b></h3>
 
 <p align="center">
     <a href="https://howellyoung-s.github.io/Omni-Video2-project/">
-        <img src="https://img.shields.io/badge/Project_Page-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project Page">
+        <img src="https://img.shields.io/badge/Project_Page-F97316?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project Page">
     </a>
     &nbsp;
     <a href="https://huggingface.co/Fudan-FUXI/OmniVideo2-A14B">
         <img src="https://img.shields.io/badge/HuggingFace-Model-FF6F61?style=for-the-badge&logo=huggingface&logoColor=white" alt="HuggingFace Model">
+    </a>
+    &nbsp;
+    <a href="https://arxiv.org/abs/2602.08820">
+        <img src="https://img.shields.io/badge/arXiv-2602.08820-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv">
     </a>
 </p>
 
@@ -35,6 +39,7 @@ Hao Li<sup>1,2*</sup>
 
 ## 🔥 Latest News
 
+- **February 12, 2026**: 🔥🔥 We release the [**Technical Report**](https://arxiv.org/abs/2602.08820) of Omni-Video 2 on arXiv!
 - **February 12, 2026**: 🔥🔥 We are glad to release a more light model [**OmniVideo2-1.3B**](https://huggingface.co/Fudan-FUXI/OmniVideo2-1.3B), it will be much smaller and quicker, and the performance is still qualitative!
 - **January 22, 2026**: 🔥🔥 The whole new [**OmniVideo2**](https://huggingface.co/Fudan-FUXI/OmniVideo2-A14B) is released now!
 - **August 6, 2025**: We are glad to release v0.1's code, which includes support for both inference and fine-tuning!
