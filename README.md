@@ -35,7 +35,8 @@ Hao Li<sup>1,2*</sup>
 
 ## 🔥 Latest News
 
-- **January 22, 2026**: 🔥🔥 The whole new **Omni-Video 2** is coming!
+- **February 12, 2026**: 🔥🔥 We are glad to release a more light model [**OmniVideo2-1.3B**](https://huggingface.co/Fudan-FUXI/OmniVideo2-1.3B), it will be much smaller and quicker, and the performance is still qualitative!
+- **January 22, 2026**: 🔥🔥 The whole new [**OmniVideo2**](https://huggingface.co/Fudan-FUXI/OmniVideo2-A14B) is released now!
 - **August 6, 2025**: We are glad to release v0.1's code, which includes support for both inference and fine-tuning!
 - **August 6, 2025**: Our version v0.1 model is uploaded to [HF Model](https://huggingface.co/Fudan-FUXI/OmniVideo2-A14B) now!
 - **July 7, 2025**: We release the Technique-Report of Omni-Video
@@ -382,21 +383,26 @@ DATA_FILE="/path/to/your/prompts.jsonl"
 GEN_SIZE="832*480"       # Video resolution (width*height)
 GEN_FRAME_NUM=41         # Number of frames
 GEN_SAMPLE_FPS=8         # Output FPS
-GEN_TASK="v2v-A14B"      # Task type: v2v-A14B or t2v-A14B
+GEN_TASK="v2v-A14B"      # Task type: v2v-A14B or t2v-A14B or v2v-A1.3B or t2v-A1.3B
 ```
 
 2. Run the inference script:
 
 ```bash
+## for OmniVideo2-A14B 
 bash tools/inference/inference_omni_e2e.sh
+## for OmniVideo2-1.3B
+bash tools/inference/inference_omni_v2v_1_3B.sh
 ```
 
 ### Available Tasks
 
 | Task | Description |
 |------|-------------|
-| `t2v-A14B` | Text-to-Video generation with A14B model |
-| `v2v-A14B` | Video-to-Video editing with A14B model |
+| `t2v-A14B` | Text-to-Video generation with OmniVideo2-A14B model |
+| `v2v-A14B` | Video-to-Video editing with OmniVideo2-A14B model |
+| `t2v-1.3B` | Text-to-Video generation with OmniVideo2-1.3B model |
+| `v2v-1.3B` | Video-to-Video editing with OmniVideo2-1.3B model |
 
 ### Generation Parameters
 
