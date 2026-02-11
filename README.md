@@ -1,4 +1,6 @@
-<h1 align="center"><span style="color: #F97316;">Omni-Video 2</span></h1>
+<h1 align="center">
+    <img src="resources/logo.png" alt="Omni-Video 2" width="400">
+</h1>
 
 <h3 align="center"><b>A flexible framework to bridge video understanding, generation and editing</b></h3>
 
