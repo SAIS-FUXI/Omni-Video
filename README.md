@@ -58,7 +58,7 @@ We present a unified video editing and generation framework that pairs a text-to
 ## Framework
 
 <p align="center">
-<img src="resources/omni_video_2_framework.png" width="100%">
+<img src="resources/omnivideo2_framework.png" width="100%">
 </p>
 
 ---
