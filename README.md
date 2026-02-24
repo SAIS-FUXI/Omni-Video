@@ -440,12 +440,11 @@ Please refer to the LICENSE file for details.
 If you find this work useful, please consider citing:
 
 ```bibtex
-@misc{omnivideo2,
-  title={OmniVideo2: A flexible framework to bridge video understanding, generation and editing
-},
-  year={2026},
-  publisher={GitHub},
-  url={https://github.com/SAIS-FUXI/Omni-Video}
+@article{yang2026omnivideo2,
+  title={Omni-Video 2: Scaling MLLM-Conditioned Diffusion for Unified Video Generation and Editing},
+  author={Yang, Hao and Tan, Zhiyu and Gong, Jia and Qin, Luozheng and Chen, Hesen and Yang, Xiaomeng and Sun, Yuqing and Lin, Yuetan and Yang, Mengping and Li, Hao},
+  journal={arXiv preprint arXiv:2602.08820},
+  year={2026}
 }
 @article{tan2025omni,
   title={Omni-Video: Democratizing Unified Video Understanding and Generation},
