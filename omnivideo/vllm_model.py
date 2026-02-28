@@ -215,27 +215,18 @@ def predict_target_video_caption(
 ) -> str:
     """
     Predict target video caption based on source caption and edit prompt.
-    
-    Args:
-        model: Qwen3-VL model
-        processor: Qwen3-VL processor
-        source_video_caption: Caption of the source video
-        edit_prompt: Edit instruction
-        system_prompt: System prompt for caption prediction
-        max_new_tokens: Maximum tokens to generate
-        temperature: Sampling temperature
-        top_p: Top-p sampling parameter
-        
-    Returns:
-        Predicted target video caption
+    Works for both V2V (with source caption) and T2V (source caption is empty).
     """
     device = next(model.parameters()).device
     
-    user_text = f"""Source video: {source_video_caption}
+    if source_video_caption:
+        user_text = f"""Source video: {source_video_caption}
 
 Edit: {edit_prompt}
 
 Now directly describe the edited video (do not mention what was changed, just describe the final video):"""
+    else:
+        user_text = f"Expand this short prompt into a detailed, descriptive video caption: {edit_prompt}"
     
     messages = [
         {
@@ -329,22 +320,23 @@ def extract_qwen3vl_features(
 ) -> Dict[str, Any]:
     """
     Extract Qwen3-VL features (vlm_last_hidden_states).
-    
-    Args:
-        model: Qwen3-VL model
-        processor: Qwen3-VL processor
-        source_video_path: Path to source video
-        edit_prompt: Edit instruction
-        system_prompt: System prompt for feature extraction
-        video_max_duration: Maximum video duration in seconds
-        
-    Returns:
-        Dictionary containing extracted features
+    Works for both V2V (with video path) and T2V (video path is None).
     """
     device = next(model.parameters()).device
     
     drop_idx = compute_system_prompt_drop_idx(processor, system_prompt)
     
+    user_content = []
+    if source_video_path and os.path.exists(source_video_path):
+        user_content.append({
+            "type": "video",
+            "video": source_video_path,
+        })
+    user_content.append({
+        "type": "text",
+        "text": edit_prompt
+    })
+
     messages = [
         {
             "role": "system",
@@ -352,16 +344,7 @@ def extract_qwen3vl_features(
         },
         {
             "role": "user",
-            "content": [
-                {
-                    "type": "video",
-                    "video": source_video_path,
-                },
-                {
-                    "type": "text",
-                    "text": edit_prompt
-                }
-            ]
+            "content": user_content
         }
     ]
     
@@ -445,36 +428,21 @@ def generate_caption_and_extract_features(
 ) -> Tuple[str, Dict[str, Any]]:
     """
     One-stop function: input source video and edit prompt, output target caption and Qwen3-VL features.
-    
-    Args:
-        model: Qwen3-VL model
-        processor: Qwen3-VL processor
-        source_video_path: Path to source video
-        edit_prompt: Edit instruction
-        source_caption_system_prompt: System prompt for source video captioning
-        target_caption_system_prompt: System prompt for target caption prediction
-        feature_extraction_system_prompt: System prompt for feature extraction
-        max_new_tokens: Maximum tokens to generate
-        temperature: Sampling temperature
-        top_p: Top-p sampling parameter
-        video_max_duration: Maximum video duration in seconds
-        
-    Returns:
-        Tuple of (target_video_caption, features_dict)
+    Intelligently handles T2V when source_video_path is None.
     """
-    logging.info(f"Processing video: {source_video_path}")
-    
-    source_video_caption = generate_source_video_caption(
-        model, processor, source_video_path,
-        system_prompt=source_caption_system_prompt,
-        max_new_tokens=max_new_tokens,
-        temperature=temperature,
-        top_p=top_p,
-        video_max_duration=video_max_duration
-    )
-    
-    if not source_video_caption:
-        return "", {}
+    if source_video_path and os.path.exists(source_video_path):
+        logging.info(f"Processing video: {source_video_path}")
+        source_video_caption = generate_source_video_caption(
+            model, processor, source_video_path,
+            system_prompt=source_caption_system_prompt,
+            max_new_tokens=max_new_tokens,
+            temperature=temperature,
+            top_p=top_p,
+            video_max_duration=video_max_duration
+        )
+    else:
+        logging.info(f"Processing T2V prompt: {edit_prompt}")
+        source_video_caption = ""
     
     target_video_caption = predict_target_video_caption(
         model, processor,
